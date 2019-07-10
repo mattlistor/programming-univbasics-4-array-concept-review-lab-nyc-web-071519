@@ -18,7 +18,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-   lowestInt = array.sort[array.length-1]
+   lowestInt = array.sort[array.length]
    array.length.times { |index| 
     if array[index] < lowestInt 
       lowestInt = array[index]
